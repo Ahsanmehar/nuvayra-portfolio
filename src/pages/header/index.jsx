@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import menuData from "./menuData";
-import { ModeToggle } from "@/Components/ModeToggle";
 import { Link } from "react-router-dom";
+import { ModeToggle } from "@/components/ModeToggle";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
