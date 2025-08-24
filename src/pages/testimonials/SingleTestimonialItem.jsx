@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import TechIcon from "@/Components/TechIcon";
+import TechIcon from "@/components/TechIcon";
 
 const SingleTestimonialItem = ({ testimonial }) => {
   return (

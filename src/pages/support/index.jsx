@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion, useInView } from "framer-motion";
-import { Button } from "@/Components/ui/button";
+import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import NewsLatterBox from "./Newlatter";

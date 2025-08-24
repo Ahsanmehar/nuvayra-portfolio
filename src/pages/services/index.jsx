@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import SectionTitle from "@/Components/SectionTitle";
+import SectionTitle from "@/components/SectionTitle";
 import { servicesData } from "@/pages/services/servicesData";
 import SingleServiceItem from "./SingleServiceItem";
 

@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import SingleTestimonialItem from "./SingleTestimonialItem";
-import TechIcon from "@/Components/TechIcon";
+import TechIcon from "@/components/TechIcon";
 
 const Testimonials = () => {
   const sliderRef = useRef(null);

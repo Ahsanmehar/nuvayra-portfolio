@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion, useInView } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Button } from "../../Components/ui/button";
+import { Button } from "../../components/ui/button";
 import hero from "@/assets/Images/hero/index";
 import { useRef } from "react";
 import { TypingAnimation } from "./TypingAnimation";

@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion, useInView } from "framer-motion";
-import SectionTitle from "@/Components/SectionTitle";
+import SectionTitle from "@/components/SectionTitle";
 import SingleMeet from "./SingleMeetItem";
 import { useRef } from "react";
 import meet_images from "@/assets/Images/meet";
