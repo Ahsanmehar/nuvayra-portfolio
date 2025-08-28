@@ -17,7 +17,7 @@ const NewsLatterBox = () => {
       y: 0,
       transition: {
         duration: 0.7,
-        ease: "easeOut"
+        ease: "easeOut",
       },
     },
   };
@@ -29,7 +29,7 @@ const NewsLatterBox = () => {
       scale: 1,
       transition: {
         duration: 0.5,
-        ease: "easeOut"
+        ease: "easeOut",
       },
     },
   };
@@ -42,14 +42,14 @@ const NewsLatterBox = () => {
       animate={isInView ? "show" : "hidden"}
       className="shadow-three dark:bg-gray-dark relative z-10 rounded-xs bg-white p-6 sm:p-11 lg:p-8 xl:p-11"
     >
-      <motion.h3 
+      <motion.h3
         variants={itemVariants}
         className="mb-4 text-2xl leading-tight font-bold text-black dark:text-white"
       >
         Subscribe to receive future updates
       </motion.h3>
-      
-      <motion.p 
+
+      <motion.p
         variants={itemVariants}
         className="border-body-color/25 text-body-color mb-11 border-b pb-11 text-base leading-relaxed dark:border-white/25"
       >
@@ -57,7 +57,7 @@ const NewsLatterBox = () => {
         tips, insights, and news on our software products delivered straight to
         your inbox.
       </motion.p>
-      
+
       <motion.div variants={itemVariants}>
         <Input
           type="text"
@@ -75,7 +75,7 @@ const NewsLatterBox = () => {
           Subscribe
         </Button>
         <p className="text-body-color dark:text-body-color-dark text-center text-base leading-relaxed">
-          No spam guaranteed, So please don't send any spam mail.
+          Stay in touch with us
         </p>
       </motion.div>
 

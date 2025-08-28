@@ -77,7 +77,6 @@ const SingleTestimonialItem = ({ testimonial }) => {
               whileHover={{
                 scale: 1.3,
                 rotate: 10,
-                color: "#00B4d8",
               }}
               whileTap={{ scale: 0.9 }}
             >

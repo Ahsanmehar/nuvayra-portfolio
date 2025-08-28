@@ -9,33 +9,36 @@ const meetOurTeamData = [
   {
     id: 1,
     name: "Arisha Mazhar",
-    designation: "Business developer Founder & CEO",
-    email: "sarah.khan@zatechsolutions.online",
+    designation: "Business Developer Founder & CEO",
+    description:
+      "Strategic visionary with 8+ years in business development and digital marketing. Expert in influencer partnerships.",
     image: meet_images.avatar1,
   },
   {
     id: 2,
     name: "Ghulam Hamza",
-    designation: "Full stack developer",
-    email: "ali.raza@zatechsolutions.online",
+    designation: "Full Stack Developer",
+    description:
+      "Tech enthusiast specializing in scalable web applications. Loves solving complex problems with clean code.",
     image: meet_images.avatar2,
   },
   {
     id: 3,
     name: "Ahsan Mehar",
-    designation: "Frontend Web developer",
-    email: "ayesha.malik@zatechsolutions.online",
+    designation: "Frontend Web Developer",
+    description:
+      "Creative UI/UX designer and developer passionate about creating seamless user experiences.",
     image: meet_images.avatar3,
   },
   {
     id: 4,
     name: "Raza Hameed",
-    designation: "Flutter Developer ",
-    email: "hassan.ahmed@zatechsolutions.online",
+    designation: "Flutter Developer",
+    description:
+      "Mobile app expert with focus on cross-platform development. Builds smooth, responsive applications.",
     image: meet_images.avatar4,
   },
 ];
-
 const MeetOurTeam = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { amount: 0.2 });

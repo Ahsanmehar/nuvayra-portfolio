@@ -5,6 +5,7 @@ import Footer from "./pages/footer";
 import HomePage from "./pages";
 import ScrollToTop from "./components/ScrollToTop";
 import ScrollUp from "./components/ScrollUp";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         </RouterRoutes>
         <Footer />
         <ScrollUp />
+        <Analytics />
       </BrowserRouter>
     </ThemeProvider>
   );

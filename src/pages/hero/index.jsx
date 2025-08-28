@@ -10,6 +10,12 @@ const Hero = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { amount: 0.3 });
 
+  const phoneNumber = "923180063986";
+
+  const openWhatsApp = () => {
+    const url = `https://wa.me/${phoneNumber}`;
+    window.open(url, "_blank");
+  };
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -75,8 +81,8 @@ const Hero = () => {
               variants={textItem}
               className="flex flex-col items-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4"
             >
-              <Button variant="default" size="lg">
-                <Link href="/dashboard">Book a Free Call</Link>
+              <Button onClick={openWhatsApp} variant="default" size="lg">
+                <Link>Book a Free Call</Link>
               </Button>
               <Button variant="secondary" size="lg">
                 <Link href="/">Learn More</Link>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import menuData from "./menuData";
 import { Link } from "react-router-dom";
 import { ModeToggle } from "@/components/ModeToggle";
+import Logo from "@/assets/Images/logo";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -21,13 +22,13 @@ const Header = () => {
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
       setActiveSection(id);
-      setNavbarOpen(false); 
+      setNavbarOpen(false);
     }
   };
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = menuData.map(item => item.path);
+      const sections = menuData.map((item) => item.path);
       const scrollPosition = window.scrollY + 100;
 
       for (const sectionId of sections) {
@@ -63,25 +64,14 @@ const Header = () => {
     >
       <div className="container">
         <div className="relative flex items-center justify-between py-6">
-          Logo
-          {/* <div className="w-40">
-            <Link to="/">
-              <img
-                src="/images/logo/logo.svg"
-                alt="logo"
-                width={100}
-                height={100}
-                className="hidden dark:block w-full object-cover"
-              />
-              <img
-                src="/images/logo/logo-2.svg"
-                alt="logo"
-                width={100}
-                height={100}
-                className="block dark:hidden w-full object-cover"
-              />
-            </Link>
-          </div> */}
+          <div>
+            <div className="hidden dark:block w-full object-cover">
+              <Logo size="lg" theme="dark" />
+            </div>
+            <div className="block dark:hidden w-full object-cover">
+              <Logo size="lg" theme="light" />
+            </div>
+          </div>
           <button
             onClick={() => setNavbarOpen(!navbarOpen)}
             aria-label="Mobile Menu"
