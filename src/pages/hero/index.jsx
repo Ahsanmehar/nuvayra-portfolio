@@ -72,10 +72,11 @@ const Hero = () => {
               variants={textItem}
               className="text-body-color dark:text-body-color-dark md:text-l mb-12 text-base leading-relaxed! sm:text-lg"
             >
-              We are your trusted software development partner, delivering
-              custom web and mobile solutions, SaaS products, and digital
-              transformation services. We help businesses grow, innovate, and
-              expand their digital presence—efficiently and securely.
+              We are your all-in-one tech solutions partner, helping businesses
+              of all sizes thrive in the digital world. From custom software and
+              websites to mobile apps and innovative digital services, we
+              deliver everything you need to grow, scale, and succeed — all in
+              one place.
             </motion.p>
             <motion.div
               variants={textItem}
